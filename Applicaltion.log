@@ -1,0 +1,18 @@
+2025-02-25T21:35:18.985-06:00  INFO 22964 --- [Springboot_logging] [restartedMain] c.e.S.SpringbootLoggingApplication       : Starting SpringbootLoggingApplication using Java 23.0.1 with PID 22964 (C:\SpringBoot\Springboot_logging\target\classes started by a772a265 in C:\SpringBoot\Springboot_logging)
+2025-02-25T21:35:18.986-06:00  INFO 22964 --- [Springboot_logging] [restartedMain] c.e.S.SpringbootLoggingApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T21:35:19.037-06:00  INFO 22964 --- [Springboot_logging] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T21:35:19.038-06:00  INFO 22964 --- [Springboot_logging] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T21:35:20.147-06:00  INFO 22964 --- [Springboot_logging] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8087 (http)
+2025-02-25T21:35:20.161-06:00  INFO 22964 --- [Springboot_logging] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T21:35:20.161-06:00  INFO 22964 --- [Springboot_logging] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25T21:35:20.192-06:00  INFO 22964 --- [Springboot_logging] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T21:35:20.193-06:00  INFO 22964 --- [Springboot_logging] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1155 ms
+2025-02-25T21:35:20.539-06:00  INFO 22964 --- [Springboot_logging] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T21:35:20.571-06:00  INFO 22964 --- [Springboot_logging] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8087 (http) with context path '/'
+2025-02-25T21:35:20.578-06:00  INFO 22964 --- [Springboot_logging] [restartedMain] c.e.S.SpringbootLoggingApplication       : Started SpringbootLoggingApplication in 2.055 seconds (process running for 2.736)
+2025-02-25T21:35:41.275-06:00  INFO 22964 --- [Springboot_logging] [http-nio-8087-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-25T21:35:41.277-06:00  INFO 22964 --- [Springboot_logging] [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-25T21:35:41.278-06:00  INFO 22964 --- [Springboot_logging] [http-nio-8087-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-25T21:35:41.339-06:00  WARN 22964 --- [Springboot_logging] [http-nio-8087-exec-1] c.e.S.LoggingController                  : This is the warning message
+2025-02-25T21:35:41.339-06:00  INFO 22964 --- [Springboot_logging] [http-nio-8087-exec-1] c.e.S.LoggingController                  : This is the Springboot application
+2025-02-25T21:35:41.340-06:00 ERROR 22964 --- [Springboot_logging] [http-nio-8087-exec-1] c.e.S.LoggingController                  : Application is not working

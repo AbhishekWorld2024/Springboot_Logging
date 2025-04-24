@@ -1,11 +1,5 @@
 # Springboot_Logging
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Spring Boot Logging</title>
-</head>
-<body>
+
     <h1>Logging in Spring Boot</h1>
     <p>
         Logging in Spring Boot plays a vital role in Spring Boot applications for recording information, actions,
@@ -24,5 +18,4 @@
     </p>
 
  
-</body>
-</html>
+

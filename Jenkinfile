@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.8.1'  // Replace with your Jenkins Maven tool name
+        maven 'Maven 3.9.9'  // Replace with your Jenkins Maven tool name
         jdk 'Java 17'        // Replace with your JDK version or tool name
     }
 
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/your-repo-url.git'
+                git 'https://github.com/AbhishekWorld2024/Springboot_Logging.git'
             }
         }
 

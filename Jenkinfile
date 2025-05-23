@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven 3.8.1'  // Replace with your Jenkins Maven tool name
+        jdk 'Java 17'        // Replace with your JDK version or tool name
+    }
+
+    stages {
+        stage('Checkout Code') {
+            steps {
+                git 'https://github.com/your-repo-url.git'
+            }
+        }
+
+        stage('Build with Maven') {
+            steps {
+                sh 'mvn clean install'
+            }
+        }
+
+        stage('Run Application') {
+            steps {
+                sh 'nohup java -jar target/*.jar > app.log 2>&1 &'
+                sleep 10
+            }
+        }
+
+        stage('Show Logs') {
+            steps {
+                sh 'tail -n 50 app.log'
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Pipeline finished.'
+        }
+    }
+}

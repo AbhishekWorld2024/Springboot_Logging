@@ -11,7 +11,7 @@ public class LoggingController {
     Logger logger= LoggerFactory.getLogger(LoggingController.class);
     @RequestMapping("/log")
     public void Seelogs(){
-        logger.warn("This is the warning message");
+        logger.warn("This is the warng message");
         logger.debug("Debug is ongoing");
         logger.info("This is the Springboot application");
         logger.error("Application is not working");
